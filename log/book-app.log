@@ -1,0 +1,95 @@
+2023-04-26 00:34:37.823  INFO 12388 --- [restartedMain] ku.book.BookApplication                  : Starting BookApplication using Java 17.0.5 on LAPTOP-BF4H64J6 with PID 12388 (C:\Softsec\book-main\target\classes started by ASUS in C:\Softsec\book-main)
+2023-04-26 00:34:37.826  INFO 12388 --- [restartedMain] ku.book.BookApplication                  : No active profile set, falling back to default profiles: default
+2023-04-26 00:34:37.960  INFO 12388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-26 00:34:37.961  INFO 12388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-26 00:34:39.347  INFO 12388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 00:34:39.459  INFO 12388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 2 JPA repository interfaces.
+2023-04-26 00:34:41.030  INFO 12388 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-04-26 00:34:41.052  INFO 12388 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-26 00:34:41.053  INFO 12388 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-04-26 00:34:41.224  INFO 12388 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-26 00:34:41.225  INFO 12388 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3262 ms
+2023-04-26 00:34:41.295  INFO 12388 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-26 00:34:41.628  INFO 12388 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-26 00:34:41.646  INFO 12388 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:book'
+2023-04-26 00:34:42.040  INFO 12388 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 00:34:42.185  INFO 12388 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2023-04-26 00:34:42.527  INFO 12388 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-26 00:34:42.784  INFO 12388 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-26 00:34:43.932  INFO 12388 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 00:34:43.952  INFO 12388 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 00:34:44.066  WARN 12388 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-26 00:34:45.038  INFO 12388 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2023-04-26 00:34:45.092  INFO 12388 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b1856d6, org.springframework.security.web.context.SecurityContextPersistenceFilter@178f7e20, org.springframework.security.web.header.HeaderWriterFilter@5ea7f3e8, org.springframework.security.web.csrf.CsrfFilter@349f2809, org.springframework.security.web.authentication.logout.LogoutFilter@4c490a2a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2994698e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b88b9db, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@30178482, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f23c0c7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ebf104, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@606c9d51, org.springframework.security.web.session.SessionManagementFilter@45cb88b1, org.springframework.security.web.access.ExceptionTranslationFilter@25aee320, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@20498cea]
+2023-04-26 00:34:45.763  INFO 12388 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-26 00:34:45.844  INFO 12388 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-04-26 00:34:45.860  INFO 12388 --- [restartedMain] ku.book.BookApplication                  : Started BookApplication in 8.932 seconds (JVM running for 10.049)
+2023-04-26 00:34:50.615  INFO 12388 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-26 00:34:50.616  INFO 12388 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-26 00:34:50.620  INFO 12388 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-04-26 00:35:14.432  WARN 12388 --- [http-nio-8090-exec-6] k.b.l.AuthenticationEventListener        : Failed login attempt [incorrect USERNAME]
+2023-04-26 00:35:38.873  WARN 12388 --- [http-nio-8090-exec-9] k.b.l.AuthenticationEventListener        : Failed login attempt [incorrect USERNAME]
+2023-04-26 00:35:51.740  INFO 12388 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 00:35:51.958  WARN 12388 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-04-26 00:35:51.960  INFO 12388 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-26 00:35:52.006  INFO 12388 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-26 00:39:04.366  INFO 17416 --- [restartedMain] ku.book.BookApplication                  : Starting BookApplication using Java 17.0.5 on LAPTOP-BF4H64J6 with PID 17416 (C:\Softsec\book-main\target\classes started by ASUS in C:\Softsec\book-main)
+2023-04-26 00:39:04.367  INFO 17416 --- [restartedMain] ku.book.BookApplication                  : No active profile set, falling back to default profiles: default
+2023-04-26 00:39:04.484  INFO 17416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-26 00:39:04.484  INFO 17416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-26 00:39:06.035  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 00:39:06.140  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 2 JPA repository interfaces.
+2023-04-26 00:39:07.798  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-04-26 00:39:07.826  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-26 00:39:07.827  INFO 17416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-04-26 00:39:08.053  INFO 17416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-26 00:39:08.054  INFO 17416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3568 ms
+2023-04-26 00:39:08.116  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-26 00:39:08.471  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-26 00:39:08.495  INFO 17416 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:book'
+2023-04-26 00:39:08.844  INFO 17416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 00:39:08.990  INFO 17416 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2023-04-26 00:39:09.375  INFO 17416 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-26 00:39:09.619  INFO 17416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-26 00:39:10.710  INFO 17416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 00:39:10.731  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 00:39:10.843  WARN 17416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-26 00:39:11.931  INFO 17416 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**'] with []
+2023-04-26 00:39:12.000  INFO 17416 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ade8b8d, org.springframework.security.web.context.SecurityContextPersistenceFilter@2022770e, org.springframework.security.web.header.HeaderWriterFilter@58d35f14, org.springframework.security.web.csrf.CsrfFilter@534a4798, org.springframework.security.web.authentication.logout.LogoutFilter@195c9d6f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@584c97e8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@125fec68, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1691aae9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71a3fdb5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@734c7e51, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f0e34af, org.springframework.security.web.session.SessionManagementFilter@2f651202, org.springframework.security.web.access.ExceptionTranslationFilter@6703bd86, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7c715be4]
+2023-04-26 00:39:12.705  INFO 17416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-26 00:39:12.812  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-04-26 00:39:12.833  INFO 17416 --- [restartedMain] ku.book.BookApplication                  : Started BookApplication in 9.306 seconds (JVM running for 10.37)
+2023-04-26 00:39:17.500  INFO 17416 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-26 00:39:17.501  INFO 17416 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-26 00:39:17.509  INFO 17416 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2023-04-26 00:39:32.070  WARN 17416 --- [http-nio-8090-exec-7] k.b.l.AuthenticationEventListener        : Failed login attempt [incorrect USERNAME]
+2023-04-26 00:39:51.529  INFO 17416 --- [http-nio-8090-exec-4] ku.book.service.UserDetailsServiceImp    : Icezu has successfully logged in at 2023-04-25T17:39:51.523214100Z
+2023-04-26 00:40:07.892  INFO 17416 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 00:40:07.918 ERROR 17416 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Error thrown while acquiring connection from data source
+
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:170) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.checkSuspended(Session.java:1369) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.transitionToState(Session.java:1361) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.waitIfExclusiveModeEnabled(Session.java:1633) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Command.executeQuery(Command.java:186) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:631) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:408) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[HikariCP-4.0.3.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-04-26 00:40:08.111  WARN 17416 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2023-04-26 00:40:08.112  INFO 17416 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-26 00:40:08.177  INFO 17416 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
